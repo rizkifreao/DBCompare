@@ -1,0 +1,22 @@
+[ Main settings ]
+; DATABASE_DRIVER: 'mysql', 'pgsql', 'dblib', 'oci'.
+; gunakan 'dblib' untuk Microsoft SQL Server
+DATABASE_DRIVER = pgsql
+DATABASE_ENCODING = utf8
+SAMPLE_DATA_LENGTH = 100
+
+[ Koneksi Database Development ]
+DATABASE_HOST = localhost
+DATABASE_PORT = 5433
+DATABASE_NAME = prim_db
+DATABASE_USER = postgres
+DATABASE_PASSWORD = 
+DATABASE_DESCRIPTION = Database Development 
+
+[ Koneksi Database Live ]
+DATABASE_HOST_SECONDARY = localhost
+DATABASE_PORT_SECONDARY = 5433
+DATABASE_NAME_SECONDARY = sec_db
+DATABASE_USER_SECONDARY = postgres
+DATABASE_PASSWORD_SECONDARY = 
+DATABASE_DESCRIPTION_SECONDARY =  Database Production
